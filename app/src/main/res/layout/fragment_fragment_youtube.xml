@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.devaj.antonio.combustivel.Fragments.FragmentCanalCombustivel">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+    <com.google.android.youtube.player.YouTubeThumbnailView
+        android:id="@+id/youtubethumbnailview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp" />
+
+
+    <!--<Button-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Button"-->
+        <!--android:layout_below="@+id/youtubethumbnailview"-->
+        <!--android:layout_toEndOf="@+id/youtubethumbnailview"-->
+        <!--android:layout_marginTop="181dp" />-->
+
+    </RelativeLayout>
+
+</FrameLayout>

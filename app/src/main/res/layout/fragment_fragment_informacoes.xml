@@ -1,0 +1,36 @@
+<android.support.v4.widget.SwipeRefreshLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/swiperefresh"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.devaj.antonio.combustivel.Fragments.FragmentInformacoes">
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/recyclerviewKaizen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:elevation="0dp"/>
+
+
+    <!--<ProgressBar-->
+    <!--android:id="@+id/consulta_progress"-->
+    <!--style="?android:attr/progressBarStyleLarge"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="0dp"-->
+    <!--android:visibility="visible" />-->
+
+<!--<ProgressBar-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--style="?android:attr/progressBarStyleSmall"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:indeterminateTint="#00bfff"-->
+    <!--android:visibility="gone"-->
+    <!--android:id="@+id/progressBar"-->
+    <!--/>-->
+
+</android.support.v4.widget.SwipeRefreshLayout>

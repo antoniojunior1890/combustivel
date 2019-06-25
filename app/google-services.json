@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "841504696560",
+    "firebase_url": "https://combustivel-179815.firebaseio.com",
+    "project_id": "combustivel-179815",
+    "storage_bucket": "combustivel-179815.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841504696560:android:0bea009f3c21c57e",
+        "android_client_info": {
+          "package_name": "com.devaj.antonio.combustivel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "841504696560-il49p3780i6ejelr0lsgmkh7lg0mlek4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3cYXB0zJVa2wSI3vWuVb0Sh4q6XaGzv0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

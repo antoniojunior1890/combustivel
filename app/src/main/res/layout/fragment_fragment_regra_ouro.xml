@@ -1,0 +1,48 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.devaj.antonio.combustivel.Fragments.FragmentRegrasOuro">
+
+<TextView
+    android:textSize="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:text="Porque a Regra nº 1 é viver."/>
+
+
+<android.support.v7.widget.RecyclerView
+android:id="@+id/recyclerviewRegraOuro"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:clipToPadding="false"
+android:elevation="0dp">
+
+
+<!--<TextView-->
+        <!--android:textSize="20dp"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:text="Porque a Regra nº 1 é viver."/>-->
+
+</android.support.v7.widget.RecyclerView>
+
+<!--<ProgressBar-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--style="?android:attr/progressBarStyleSmall"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:indeterminateTint="#00bfff"-->
+    <!--android:visibility="gone"-->
+    <!--android:id="@+id/progressBar"-->
+    <!--/>-->
+
+</LinearLayout>

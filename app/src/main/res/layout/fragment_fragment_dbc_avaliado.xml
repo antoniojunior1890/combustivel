@@ -1,0 +1,61 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.devaj.antonio.combustivel.Fragments.FragmentDBCAvaliado">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textSize="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:gravity="center|start"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:text="Pontuação DBC"/>
+                <TextView
+                    android:id="@+id/totalpontos"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:gravity="center|end"
+                    android:textColor="#FF0000"
+                    android:layout_marginRight="10dp"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </LinearLayout>
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swiperefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerviewDBCAvaliado"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:elevation="0dp"/>
+
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+</LinearLayout>

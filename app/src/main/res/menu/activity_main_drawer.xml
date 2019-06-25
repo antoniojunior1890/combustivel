@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_informe"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Informe Gerencial" />
+
+    <item
+
+        android:id="@+id/nav_kaizens"
+        android:icon="@drawable/ic_build_black_24dp"
+        android:title="Kaizens" />
+
+    <item
+
+        android:id="@+id/nav_dbc"
+        android:icon="@drawable/outline_how_to_reg_black_24dp"
+        android:title="DBC" />
+
+    <!--<item android:title="Procedimentos">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_pial"-->
+                <!--android:icon="@drawable/ic_subway_black_24dp"-->
+                <!--android:title="PIAL" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_oficina"-->
+                <!--android:icon="@drawable/ic_train_black_24dp"-->
+                <!--android:title="Oficina" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+    <item android:title="Escala">
+        <menu>
+            <item
+                android:id="@+id/nav_escala_turma"
+                android:icon="@drawable/ic_group_black_24dp"
+                android:title="Turma" />
+            <item
+                android:id="@+id/nav_escala_operador"
+                android:icon="@drawable/ic_event_black_24dp"
+                android:title="Operador" />
+            <item
+                android:id="@+id/nav_atividades"
+                android:icon="@drawable/outline_list_alt_black_24"
+                android:title="Atividades" />
+        </menu>
+    </item>
+
+    <!--<group android:checkableBehavior="single">-->
+    <item android:title="SSMA">
+        <menu>
+            <item
+                android:id="@+id/nav_regra_ouro"
+                android:icon="@drawable/ic_assignment_ind_black_24dp"
+                android:title="Regras de ouro" />
+            <item
+                android:id="@+id/nav_riscos_específicos"
+                android:icon="@drawable/baseline_report_problem_black_24dp"
+                android:title="Riscos Especificos" />
+            <item
+                android:id="@+id/nav_ssma"
+                android:icon="@drawable/ic_security_black_24dp"
+                android:title="Carteiras" />
+        </menu>
+    </item>
+    <!--</group>-->
+    <item android:title="Canal Combustivel">
+        <menu>
+            <item
+                android:id="@+id/nav_canal_combustivel"
+                android:icon="@drawable/ic_videocam_black_24dp"
+                android:title="Videos" />
+        </menu>
+    </item>
+
+</menu>
